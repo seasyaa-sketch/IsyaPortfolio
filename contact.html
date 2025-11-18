@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ♡ My Pink Space 🩰</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="sparkles"></div>
+
+    <button id="btnUp" class="arrow-btn">↑</button>
+    <button id="btnDown" class="arrow-btn">↓</button>
+    <script src="arrow.js"></script>
+
+     <div id="loading">
+    <div class="hearts">
+        <span>💗</span>
+        <span>💗</span>
+        <span>💗</span>
+    </div>
+    <p>Loading... 🌷</p>
+</div>
+
+<!-- Your website content -->
+<div id="pageContent" style="display:none;">
+    <!-- everything inside your website -->
+</div>
+
+<script src="loading.js"></script>
+
+<div class="page-nav">
+    <a class="nav-arrow left"></a>
+    <a class="nav-arrow right"></a>
+</div>
+
+<script src="nav.js"></script>
+
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">♡ My Pink Space 🩰</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="hobbies.html">Hobby</a></li>
+                <li><a href="diary.html">Diary</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>Let's start our conversation here</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>I'm always excited to connect with new people, discuss potential projects, or just have a friendly chat. Don't hesitate to reach out!</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kuala Lumpur, Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>amira.aisya@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+60 12 345 6789</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links-contact">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://www.tiktok.com/@dkalf.k?_r=1&_t=ZS-91VQUg84Os1" class="social-link"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://x.com/dkalf_k?t=lowqS3UiGk6t5nlA-kzC8g&s=09" class="social-link"><i class="fab fa-x"></i></a>
+                            <a href="https://www.instagram.com/dkalf.k?igsh=MWpscjJqdHFkbWloMA==" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/amira-aisya-0b6064364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://youtube.com/@dailylifemira?si=Vdk-Kwpt9NNMMh9Q" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+               <div class="contact-form">
+                <h2>Send Me a Message</h2>
+                 <form action="https://formspree.io/f/xqanezpe" method="POST">
+                <div class="form-group">
+                     <label for="name">Your Name</label>
+                     <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                
+                <!-- ADD THIS HIDDEN FIELD -->
+                <input type="hidden" name="_next" value="https://your-website-url.com/thank-you.html">
+
+                <button type="submit" class="btn-pink">Send Message</button>
+            </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.tiktok.com/@dkalf.k?_r=1&_t=ZS-91VQUg84Os1" class="social-link"><i class="fab fa-tiktok"></i></a>
+                <a href="https://x.com/dkalf_k?t=lowqS3UiGk6t5nlA-kzC8g&s=09" class="social-link"><i class="fab fa-x"></i></a>
+                <a href="https://www.instagram.com/dkalf.k?igsh=MWpscjJqdHFkbWloMA==" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/amira-aisya-0b6064364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://youtube.com/@dailylifemira?si=Vdk-Kwpt9NNMMh9Q" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2025 ♡ My Pink Space 🩰. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
