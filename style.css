@@ -202,17 +202,16 @@ background-color: var(--pale-pink);
 }
 
 .video-wrapper {
+    text-align: center;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 40px 0;
 }
 
 .video-wrapper video {
-    width: 90%;
+    display: block;
+    margin: 0 auto;
+    width: 70%; /* boleh adjust */
     max-width: 700px;
     border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(255, 150, 180, 0.3);
 }
 
 /* Music */
@@ -986,6 +985,7 @@ footer {
     }
 
 }
+
 
 
 
